@@ -1,18 +1,30 @@
 sprite_index = sprite[state]
 
-if mouse_check_button_pressed(mb_left) and not drag_state and can_jump{
+
+
+if mouse_check_button_pressed(mb_left) and not drag_state {
 	drag_state = true;
 }
-if mouse_check_button_released(mb_left) and drag_state and can_jump {
+if mouse_check_button_released(mb_left) and drag_state {
+	
+	if grounded {
+		physics_apply_impulse(x,y,(x-mouse_x) / 2,(y-mouse_y) / 2 );
+	} else if not grounded and stamina > 0 {
+		stamina--;
+		physics_apply_impulse(x,y,(x-mouse_x) / 2,(y-mouse_y) / 2 );
+	}
+	
+	
 	drag_state = false;
-	physics_apply_impulse(x,y,(x-mouse_x) / 2,(y-mouse_y) / 2 );
+	
+
 }
 
 
 if phy_speed_y == 0 {
-	can_jump = true;
+	grounded = true;
 }else{
-	can_jump = false;
+	grounded = false;
 }
 
 
@@ -34,3 +46,8 @@ if drag_state {
 if phy_rotation > 1 || phy_rotation < -1{
 	//help state
 }
+
+if hp <= 0 {
+	instance_destroy()
+}
+
