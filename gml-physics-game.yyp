@@ -64,6 +64,7 @@
     {"id":{"name":"grass_land_bkg_1","path":"sprites/grass_land_bkg_1/grass_land_bkg_1.yy",},},
     {"id":{"name":"s_milk_cartons","path":"sprites/s_milk_cartons/s_milk_cartons.yy",},},
     {"id":{"name":"s_bottled_drinks","path":"sprites/s_bottled_drinks/s_bottled_drinks.yy",},},
+    {"id":{"name":"o_monster","path":"objects/o_monster/o_monster.yy",},},
     {"id":{"name":"s_cake_slices","path":"sprites/s_cake_slices/s_cake_slices.yy",},},
     {"id":{"name":"s_ice_cream_cones","path":"sprites/s_ice_cream_cones/s_ice_cream_cones.yy",},},
     {"id":{"name":"s_player_falling","path":"sprites/s_player_falling/s_player_falling.yy",},},

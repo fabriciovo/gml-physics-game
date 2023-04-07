@@ -40,6 +40,7 @@
     {"name":"s_player_idle","order":2,"path":"sprites/s_player_idle/s_player_idle.yy",},
     {"name":"s_pancake_stack","order":1,"path":"sprites/s_pancake_stack/s_pancake_stack.yy",},
     {"name":"s_bottled_drinks","order":5,"path":"sprites/s_bottled_drinks/s_bottled_drinks.yy",},
+    {"name":"o_monster","order":8,"path":"objects/o_monster/o_monster.yy",},
     {"name":"s_cake_slices","order":7,"path":"sprites/s_cake_slices/s_cake_slices.yy",},
     {"name":"s_ice_cream_cones","order":11,"path":"sprites/s_ice_cream_cones/s_ice_cream_cones.yy",},
     {"name":"s_player_falling","order":1,"path":"sprites/s_player_falling/s_player_falling.yy",},
