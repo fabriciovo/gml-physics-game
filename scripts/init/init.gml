@@ -10,4 +10,12 @@ function init(){
 		fall,
 		damage,
 	}
+	
+	
+	enum monster_states {
+		normal,
+		walk,
+		falling,
+		damage
+	}
 }
