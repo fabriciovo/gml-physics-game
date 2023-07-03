@@ -16,3 +16,8 @@ if phy_speed_x > 0 {
 if phy_speed_x < 0 {
 	image_xscale = 1
 }
+
+if ((!place_meeting( (x + phy_speed_x), y + 1, o_solid)))
+{
+    phy_speed_x = -phy_speed_x; 
+}
