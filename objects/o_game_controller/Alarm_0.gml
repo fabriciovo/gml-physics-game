@@ -1,0 +1,1 @@
+instance_create_layer(o_start.x,o_start.y,"Instances",o_player);
