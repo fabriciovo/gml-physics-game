@@ -17,7 +17,7 @@
   ],
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3DDC1E7F_1","properties":[],"isDnd":false,"objectId":{"name":"o_player","path":"objects/o_player/o_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":168.0,"y":855.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2185F30A","properties":[],"isDnd":false,"objectId":{"name":"o_start","path":"objects/o_start/o_start.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":880.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Solid","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6AF32BE4","properties":[],"isDnd":false,"objectId":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":10.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":895.0,},
@@ -72,7 +72,6 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_3DDC1E7F_1","path":"rooms/rm_grassland_world_1/rm_grassland_world_1.yy",},
     {"name":"inst_6AF32BE4","path":"rooms/rm_grassland_world_1/rm_grassland_world_1.yy",},
     {"name":"inst_5A26F93","path":"rooms/rm_grassland_world_1/rm_grassland_world_1.yy",},
     {"name":"inst_619E38AB","path":"rooms/rm_grassland_world_1/rm_grassland_world_1.yy",},
@@ -91,6 +90,7 @@
     {"name":"inst_538DFD67","path":"rooms/rm_grassland_world_1/rm_grassland_world_1.yy",},
     {"name":"inst_733E008F","path":"rooms/rm_grassland_world_1/rm_grassland_world_1.yy",},
     {"name":"inst_5DB887B8","path":"rooms/rm_grassland_world_1/rm_grassland_world_1.yy",},
+    {"name":"inst_2185F30A","path":"rooms/rm_grassland_world_1/rm_grassland_world_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
