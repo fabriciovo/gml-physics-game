@@ -6,10 +6,7 @@ if hp <= 0 {
 
 if state == player_states.damage {
 	phy_fixed_rotation = false
-	if phy_speed_y > .3 || phy_speed_y < -.3{
-		//phy_rotation += 8;
-	}
-	
+	phy_rotation += 8;
 }else {
 	phy_fixed_rotation = true
 	phy_rotation = 0
@@ -52,6 +49,14 @@ if state == player_states.damage {
 
 
 
+if phy_speed_x != 0 {
+	drag_state = false
+}
 
 
-
+if place_meeting(x,y-1,o_ice_solid){
+	physics_set_friction(fix_id, 0.1);
+}
+if place_meeting(x,y-1,o_solid){
+	physics_set_friction(fix_id, 0.1);
+}
