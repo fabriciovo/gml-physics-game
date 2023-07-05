@@ -16,7 +16,7 @@ if state == player_states.damage {
 	if mouse_check_button_released(mb_left) and drag_state {
 		if grounded {
 			physics_apply_impulse(x,y,(x-mouse_x) / 2,(y-mouse_y) / 2 );
-		} else if not grounded and stamina > 0 {
+		} else if not grounded  {
 			stamina--;
 			physics_apply_impulse(x,y,(x-mouse_x) / 2,(y-mouse_y) / 2 );
 		}
@@ -50,7 +50,7 @@ if state == player_states.damage {
 
 
 if phy_speed_x != 0 {
-	drag_state = false
+	//drag_state = false
 }
 
 
