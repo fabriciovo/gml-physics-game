@@ -1,0 +1,1 @@
+physics_joint_revolute_create(o_triangle,o_platfom,o_triangle.x,o_triangle.y,0,0,0,0,0,0,0)

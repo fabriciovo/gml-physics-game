@@ -54,9 +54,9 @@ if phy_speed_x != 0 {
 }
 
 
-if place_meeting(x,y-1,o_ice_solid){
-	physics_set_friction(fix_id, 0.1);
-}
-if place_meeting(x,y-1,o_solid){
-	physics_set_friction(fix_id, 0.1);
-}
+//if place_meeting(x,y-1,o_ice_solid){
+//	physics_set_friction(fix_id, 0.1);
+//}
+//if place_meeting(x,y-1,o_solid){
+//	physics_set_friction(fix_id, 0.1);
+//}
